@@ -19,3 +19,9 @@ edad=18
 direccion='parcela 6'
 edad = 21.5
 edad = "50"
+
+mes = 3
+dia = 7
+
+print(f"El año es {año} del mes {mes} y el dia {dia}") #interpolacion de cadenas
+
