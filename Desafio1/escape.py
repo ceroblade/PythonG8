@@ -1,6 +1,8 @@
 import math
 
 # Solicitar al usuario que ingrese el radio en kilómetros
+# una sola linea radio_km = float(input("Ingrese el radio en kilómetros: ")) * 1000
+
 radio_km = float(input("Ingrese el radio en kilómetros: "))
 # Convertir el radio a metros
 radio_m = radio_km * 1000
