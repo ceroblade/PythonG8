@@ -17,11 +17,10 @@ ventas = {
 # Solicitud al usuario para ingresar el umbral y conversión a entero
 umbral = int(input("Ingrese el Umbral: "))
 
-# Creación de un nuevo diccionario 'informe' mediante comprensión de diccionario,
-# que contiene solo los meses y valores que superan el umbral ingresado por el usuario
+# Creacion de un nuevo diccionario 'informe' mediante comprehensions, que contiene solo los meses y valores que superan el umbral ingresado por el usuario
 informe = {mes: valor for mes, valor in ventas.items() if valor > umbral}
 
-# Impresión de los meses que superan el umbral
-print("Meses que superan el umbral de", umbral, ":")
+# Impresion de los meses que superan el umbral
+print("Los meses que superan el umbral de", umbral, "son :" )
 for mes, valor in informe.items():
     print(mes, ":", valor)
